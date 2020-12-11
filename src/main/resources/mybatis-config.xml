@@ -4,6 +4,6 @@
         "http://ibatis.apache.org/dtd/ibatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <typeAlias alias="UserTest" type="com.christine.model.UserTest"/>
+        <typeAlias alias="Roster" type="com.christine.model.Roster"/>
     </typeAliases>
 </configuration>
