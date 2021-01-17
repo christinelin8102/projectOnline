@@ -6,14 +6,17 @@ import com.christine.service.UserTestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 @Service
 public class UserTestServiceImpl implements UserTestService {
 
     @Autowired
-    private UserTestMapper userTestMapper;
+    UserTestMapper userTestMapper;
 
     @Override
-    public UserTest findByUserNo(Long user_no) {
-        return userTestMapper.findByUserNo(user_no);
+    public UserTest findById(Long id) {
+        return userTestMapper.findById(id);
+
     }
 }

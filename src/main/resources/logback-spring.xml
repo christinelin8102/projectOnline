@@ -5,7 +5,7 @@
             <pattern>%d [%thread] %-5level %logger{20} %L : %m%n</pattern>
             <charset>UTF-8</charset>
         </encoder>
-        <file>D:/ProjectOnline/logs/projectOnline.log</file>
+        <file>/Users/linmengying/projectTest/logs/projectOnline.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
             <fileNamePattern>projectOnline.%i.log</fileNamePattern>
             <minIndex>1</minIndex>

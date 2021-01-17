@@ -3,7 +3,7 @@ import lombok.Data;
 
 @Data
 public class UserTest {
-    private Long user_no;
+    private Long id;
     private String user_name;
     private int age;
 }
